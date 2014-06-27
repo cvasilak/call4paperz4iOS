@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A1C1C2A195E0A1D00F54F08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1C1C29195E0A1D00F54F08 /* Foundation.framework */; };
+		8A1C1C2C195E0A1D00F54F08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1C1C2B195E0A1D00F54F08 /* CoreGraphics.framework */; };
+		8A1C1C2E195E0A1D00F54F08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1C1C2D195E0A1D00F54F08 /* UIKit.framework */; };
+		8A1C1C34195E0A1D00F54F08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A1C1C32195E0A1D00F54F08 /* InfoPlist.strings */; };
+		8A1C1C36195E0A1D00F54F08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C1C35195E0A1D00F54F08 /* main.m */; };
+		8A1C1C3A195E0A1D00F54F08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C1C39195E0A1D00F54F08 /* AppDelegate.m */; };
+		8A1C1C3C195E0A1D00F54F08 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8A1C1C3B195E0A1D00F54F08 /* Podfile */; };
+		8A1C1C40195E0A1D00F54F08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C1C3F195E0A1D00F54F08 /* ViewController.m */; };
+		8A1C1C44195E0A1D00F54F08 /* Call4PaperzAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C1C43195E0A1D00F54F08 /* Call4PaperzAPIClient.m */; };
+		8A1C1C46195E0A1D00F54F08 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8A1C1C45195E0A1D00F54F08 /* .gitignore */; };
+		8A1C1C48195E0A1D00F54F08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1C1C47195E0A1D00F54F08 /* Images.xcassets */; };
+		8A1C1C4F195E0A1D00F54F08 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1C1C4E195E0A1D00F54F08 /* XCTest.framework */; };
+		8A1C1C50195E0A1D00F54F08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1C1C29195E0A1D00F54F08 /* Foundation.framework */; };
+		8A1C1C51195E0A1D00F54F08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1C1C2D195E0A1D00F54F08 /* UIKit.framework */; };
+		8A1C1C59195E0A1D00F54F08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A1C1C57195E0A1D00F54F08 /* InfoPlist.strings */; };
+		8A1C1C5B195E0A1D00F54F08 /* Call4PaperzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C1C5A195E0A1D00F54F08 /* Call4PaperzTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A1C1C52195E0A1D00F54F08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1C1C1E195E0A1D00F54F08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A1C1C25195E0A1D00F54F08;
+			remoteInfo = Call4Paperz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A1C1C26195E0A1D00F54F08 /* Call4Paperz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Call4Paperz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1C1C29195E0A1D00F54F08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A1C1C2B195E0A1D00F54F08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A1C1C2D195E0A1D00F54F08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A1C1C31195E0A1D00F54F08 /* Call4Paperz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Call4Paperz-Info.plist"; sourceTree = "<group>"; };
+		8A1C1C33195E0A1D00F54F08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A1C1C35195E0A1D00F54F08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A1C1C37195E0A1D00F54F08 /* Call4Paperz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Call4Paperz-Prefix.pch"; sourceTree = "<group>"; };
+		8A1C1C38195E0A1D00F54F08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A1C1C39195E0A1D00F54F08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A1C1C3B195E0A1D00F54F08 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		8A1C1C3E195E0A1D00F54F08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Classes/Controllers/ViewController.h; sourceTree = "<group>"; };
+		8A1C1C3F195E0A1D00F54F08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Classes/Controllers/ViewController.m; sourceTree = "<group>"; };
+		8A1C1C42195E0A1D00F54F08 /* Call4PaperzAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Call4PaperzAPIClient.h; path = Classes/Service/Call4PaperzAPIClient.h; sourceTree = "<group>"; };
+		8A1C1C43195E0A1D00F54F08 /* Call4PaperzAPIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Call4PaperzAPIClient.m; path = Classes/Service/Call4PaperzAPIClient.m; sourceTree = "<group>"; };
+		8A1C1C45195E0A1D00F54F08 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8A1C1C47195E0A1D00F54F08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8A1C1C4D195E0A1D00F54F08 /* Call4PaperzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Call4PaperzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1C1C4E195E0A1D00F54F08 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8A1C1C56195E0A1D00F54F08 /* Call4PaperzTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Call4PaperzTests-Info.plist"; sourceTree = "<group>"; };
+		8A1C1C58195E0A1D00F54F08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A1C1C5A195E0A1D00F54F08 /* Call4PaperzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Call4PaperzTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A1C1C23195E0A1D00F54F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1C1C2C195E0A1D00F54F08 /* CoreGraphics.framework in Frameworks */,
+				8A1C1C2E195E0A1D00F54F08 /* UIKit.framework in Frameworks */,
+				8A1C1C2A195E0A1D00F54F08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1C1C4A195E0A1D00F54F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1C1C4F195E0A1D00F54F08 /* XCTest.framework in Frameworks */,
+				8A1C1C51195E0A1D00F54F08 /* UIKit.framework in Frameworks */,
+				8A1C1C50195E0A1D00F54F08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A1C1C1D195E0A1D00F54F08 = {
+			isa = PBXGroup;
+			children = (
+				8A1C1C2F195E0A1D00F54F08 /* Call4Paperz */,
+				8A1C1C54195E0A1D00F54F08 /* Call4PaperzTests */,
+				8A1C1C28195E0A1D00F54F08 /* Frameworks */,
+				8A1C1C27195E0A1D00F54F08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A1C1C27195E0A1D00F54F08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C1C26195E0A1D00F54F08 /* Call4Paperz.app */,
+				8A1C1C4D195E0A1D00F54F08 /* Call4PaperzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A1C1C28195E0A1D00F54F08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C1C29195E0A1D00F54F08 /* Foundation.framework */,
+				8A1C1C2B195E0A1D00F54F08 /* CoreGraphics.framework */,
+				8A1C1C2D195E0A1D00F54F08 /* UIKit.framework */,
+				8A1C1C4E195E0A1D00F54F08 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A1C1C2F195E0A1D00F54F08 /* Call4Paperz */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C1C38195E0A1D00F54F08 /* AppDelegate.h */,
+				8A1C1C39195E0A1D00F54F08 /* AppDelegate.m */,
+				8A1C1C3B195E0A1D00F54F08 /* Podfile */,
+				8A1C1C45195E0A1D00F54F08 /* .gitignore */,
+				8A1C1C47195E0A1D00F54F08 /* Images.xcassets */,
+				8A1C1C3D195E0A1D00F54F08 /* Controllers */,
+				8A1C1C41195E0A1D00F54F08 /* Service */,
+				8A1C1C30195E0A1D00F54F08 /* Supporting Files */,
+			);
+			path = Call4Paperz;
+			sourceTree = "<group>";
+		};
+		8A1C1C30195E0A1D00F54F08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C1C31195E0A1D00F54F08 /* Call4Paperz-Info.plist */,
+				8A1C1C32195E0A1D00F54F08 /* InfoPlist.strings */,
+				8A1C1C35195E0A1D00F54F08 /* main.m */,
+				8A1C1C37195E0A1D00F54F08 /* Call4Paperz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A1C1C3D195E0A1D00F54F08 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C1C3E195E0A1D00F54F08 /* ViewController.h */,
+				8A1C1C3F195E0A1D00F54F08 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8A1C1C41195E0A1D00F54F08 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C1C42195E0A1D00F54F08 /* Call4PaperzAPIClient.h */,
+				8A1C1C43195E0A1D00F54F08 /* Call4PaperzAPIClient.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		8A1C1C54195E0A1D00F54F08 /* Call4PaperzTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C1C5A195E0A1D00F54F08 /* Call4PaperzTests.m */,
+				8A1C1C55195E0A1D00F54F08 /* Supporting Files */,
+			);
+			path = Call4PaperzTests;
+			sourceTree = "<group>";
+		};
+		8A1C1C55195E0A1D00F54F08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C1C56195E0A1D00F54F08 /* Call4PaperzTests-Info.plist */,
+				8A1C1C57195E0A1D00F54F08 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A1C1C25195E0A1D00F54F08 /* Call4Paperz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1C1C5E195E0A1D00F54F08 /* Build configuration list for PBXNativeTarget "Call4Paperz" */;
+			buildPhases = (
+				8A1C1C22195E0A1D00F54F08 /* Sources */,
+				8A1C1C23195E0A1D00F54F08 /* Frameworks */,
+				8A1C1C24195E0A1D00F54F08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Call4Paperz;
+			productName = Call4Paperz;
+			productReference = 8A1C1C26195E0A1D00F54F08 /* Call4Paperz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A1C1C4C195E0A1D00F54F08 /* Call4PaperzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1C1C61195E0A1D00F54F08 /* Build configuration list for PBXNativeTarget "Call4PaperzTests" */;
+			buildPhases = (
+				8A1C1C49195E0A1D00F54F08 /* Sources */,
+				8A1C1C4A195E0A1D00F54F08 /* Frameworks */,
+				8A1C1C4B195E0A1D00F54F08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A1C1C53195E0A1D00F54F08 /* PBXTargetDependency */,
+			);
+			name = Call4PaperzTests;
+			productName = Call4PaperzTests;
+			productReference = 8A1C1C4D195E0A1D00F54F08 /* Call4PaperzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A1C1C1E195E0A1D00F54F08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Daniel Passos";
+				TargetAttributes = {
+					8A1C1C4C195E0A1D00F54F08 = {
+						TestTargetID = 8A1C1C25195E0A1D00F54F08;
+					};
+				};
+			};
+			buildConfigurationList = 8A1C1C21195E0A1D00F54F08 /* Build configuration list for PBXProject "Call4Paperz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A1C1C1D195E0A1D00F54F08;
+			productRefGroup = 8A1C1C27195E0A1D00F54F08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A1C1C25195E0A1D00F54F08 /* Call4Paperz */,
+				8A1C1C4C195E0A1D00F54F08 /* Call4PaperzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A1C1C24195E0A1D00F54F08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1C1C3C195E0A1D00F54F08 /* Podfile in Resources */,
+				8A1C1C48195E0A1D00F54F08 /* Images.xcassets in Resources */,
+				8A1C1C46195E0A1D00F54F08 /* .gitignore in Resources */,
+				8A1C1C34195E0A1D00F54F08 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1C1C4B195E0A1D00F54F08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1C1C59195E0A1D00F54F08 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A1C1C22195E0A1D00F54F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1C1C44195E0A1D00F54F08 /* Call4PaperzAPIClient.m in Sources */,
+				8A1C1C40195E0A1D00F54F08 /* ViewController.m in Sources */,
+				8A1C1C3A195E0A1D00F54F08 /* AppDelegate.m in Sources */,
+				8A1C1C36195E0A1D00F54F08 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1C1C49195E0A1D00F54F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1C1C5B195E0A1D00F54F08 /* Call4PaperzTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A1C1C53195E0A1D00F54F08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A1C1C25195E0A1D00F54F08 /* Call4Paperz */;
+			targetProxy = 8A1C1C52195E0A1D00F54F08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A1C1C32195E0A1D00F54F08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A1C1C33195E0A1D00F54F08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A1C1C57195E0A1D00F54F08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A1C1C58195E0A1D00F54F08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A1C1C5C195E0A1D00F54F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A1C1C5D195E0A1D00F54F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A1C1C5F195E0A1D00F54F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Call4Paperz/Call4Paperz-Prefix.pch";
+				INFOPLIST_FILE = "Call4Paperz/Call4Paperz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A1C1C60195E0A1D00F54F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Call4Paperz/Call4Paperz-Prefix.pch";
+				INFOPLIST_FILE = "Call4Paperz/Call4Paperz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8A1C1C62195E0A1D00F54F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Call4Paperz.app/Call4Paperz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Call4Paperz/Call4Paperz-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Call4PaperzTests/Call4PaperzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8A1C1C63195E0A1D00F54F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Call4Paperz.app/Call4Paperz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Call4Paperz/Call4Paperz-Prefix.pch";
+				INFOPLIST_FILE = "Call4PaperzTests/Call4PaperzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A1C1C21195E0A1D00F54F08 /* Build configuration list for PBXProject "Call4Paperz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1C1C5C195E0A1D00F54F08 /* Debug */,
+				8A1C1C5D195E0A1D00F54F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1C1C5E195E0A1D00F54F08 /* Build configuration list for PBXNativeTarget "Call4Paperz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1C1C5F195E0A1D00F54F08 /* Debug */,
+				8A1C1C60195E0A1D00F54F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A1C1C61195E0A1D00F54F08 /* Build configuration list for PBXNativeTarget "Call4PaperzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1C1C62195E0A1D00F54F08 /* Debug */,
+				8A1C1C63195E0A1D00F54F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A1C1C1E195E0A1D00F54F08 /* Project object */;
+}
